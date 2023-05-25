@@ -10,6 +10,7 @@ public class Box {
     }
 
     public void completaGiro(int giro){
+        giro++;
         System.out.println(Thread.currentThread().getName()+" completa giro "+ giro);
     }
 
