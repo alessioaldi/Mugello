@@ -1,6 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        Semaforo s = new Semaforo(1);
+        Semaforo s = new Semaforo(2);
         Box b = new Box();
 
         Macchina m1 = new Macchina(11, "ferrari", "frero",s , b);
